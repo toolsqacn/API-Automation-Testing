@@ -13,4 +13,5 @@ Rest-Assured 是一个测试 Restful Web Service 的 Java 类库，我们能够�
 - 使用 Rest-Assured 发送 Post 请求；
 - 把 JSON 格式数据封装为 Java 类；
 - RESTFul Webservice 中的验证和授权。
-GitBook：Rest-Asssured 实战 Rest API 自动化测试
+
+**GitBook：[Rest-Asssured 实战 Rest API 自动化测试]**
