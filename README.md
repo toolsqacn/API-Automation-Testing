@@ -7,13 +7,14 @@ Rest-Assured 是一个测试 Restful Web Service 的 Java 类库，我们能够�
 
 1. 测试环境搭建；
    - 设置JAVA 环境
+   
    由于Rest-Assured是一个Java类库，需配置好JDK环境才能使用该Java库进行接口测试。
 首先检查是否已经安装和JDK并配置好了运行环境。
 在命令行窗口输入：
 
-`java -version`
+  `java -version`
 
-如果已经安装好了JDK运行环境则显示图1-1 JAVA版本信息：
+    如果已经安装好了JDK运行环境则显示图1-1 JAVA版本信息：
 
 ![图1-1 查看Java版本信息](images/2018/04/图1-1-查看java版本信息.png)
 图1-1 查看Java版本信息
@@ -53,4 +54,4 @@ JDK下载安装后需要配置运行环境，配置JDK运行环境的步骤如�
 
 **GitBook：[Rest-Asssured 实战 Rest API 自动化测试](http://gitbook.cn/gitchat/activity/5ad5f44f3a87555c6d7ee7c7)**
 ** [吐司 QA](http://qatools.cn)公众号**
-(https://wx2.sinaimg.cn/large/d99b41d3gy1fqrbpc6qaij2076076mxm.jpg)
+[公众号](https://wx2.sinaimg.cn/large/d99b41d3gy1fqrbpc6qaij2076076mxm.jpg)
