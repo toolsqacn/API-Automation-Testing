@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testsuit id="Rest-Assrued" baseurl="http://toolsqa.cn/demon/api">
+	<testcase id="rest-assured-book"  name="">
+		<precondition url="/book" />
+		<testdata id="1"/>
+		<expect name="Selenium从入门到实战"/>
+	</testcase>
+	
+</testsuit>

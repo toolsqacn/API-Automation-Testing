@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testsuit id="Rest-Assrued" baseurl="http://restapi.demoqa.com">
+	<testcase id="rest-assured-city"  name="Hyderabad">
+		<precondition url="/utilities/weather/city/Hyderabad"/>
+		<testdata city="Hyderabad"/>
+		<expect city="Hyderabad"/>
+	</testcase>
+	<testcase id="rest-assured-customer"  name="customer">
+		<precondition url="/customer/register"/>
+		<testdata firstName="qatools" lastName="cn" userName="restassrued" password="123456" 
+		 email="service@toolsqa.cn" />
+		<expect statusCode="201" successCode="OPERATION_SUCCESS" />
+	</testcase>
+	
+</testsuit>

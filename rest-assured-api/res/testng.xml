@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="吐司QA-全景接口测试报告" preserve-order="true">
+	<!-- Query Weather of City  test -->
+	<test verbose="2" name="书籍查询"  preserve-order="true">
+        <classes>
+        	<class name="cn.toolsqa.testcase.book.TestCaseBook" />
+        </classes>  
+    </test> 
+    
+    <!-- User Register -->
+	<!-- <test verbose="2" name="TestCase.Customer.Register"  preserve-order="true">
+        <classes>
+        	<class name="cn.toolsqa.testcase.customer.TestCaseRegister" />
+        </classes>  
+    </test>  -->
+      
+     <!-- User Register -->
+	<test verbose="2" name="用户认证"  preserve-order="true">
+        <classes>
+        	<class name="cn.toolsqa.testcase.authentication.Authentication" />
+        </classes>  
+    </test> 
+ 
+  <!-- class-name的值填写为时间创建的监听器的路径 -->
+  <listeners>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+
+ <!--  <listener class-name="htmlreport.ExtentTestNGIReporterListener"></listener> -->
+</listeners>
+</suite> 
+<!-- Default suite -->
