@@ -9,9 +9,9 @@
     </test> 
     
     <!-- User Register -->
-	<!-- <test verbose="2" name="TestCase.Customer.Register"  preserve-order="true">
+	<!-- <test verbose="2" name="用户注册"  preserve-order="true">
         <classes>
-        	<class name="cn.toolsqa.testcase.customer.TestCaseRegister" />
+        	<class name="cn.toolsqa.testcase.user.TestCaseRegister" />
         </classes>  
     </test>  -->
       
