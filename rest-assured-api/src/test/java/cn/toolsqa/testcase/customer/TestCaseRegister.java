@@ -30,7 +30,7 @@ public class TestCaseRegister {
 	@Test
 	public void RegistrationSuccessful()
 	{		
-		RestAssured.baseURI ="http://restapi.demoqa.com/customer";
+		RestAssured.baseURI ="http://toolsqa.cn/demon/api/user";
 		RequestSpecification request = RestAssured.given();
 	 
 		JSONObject requestParams = new JSONObject();
@@ -41,7 +41,7 @@ public class TestCaseRegister {
 	 
 		requestParams.put("Email",  "yaoli@gmail.com");
 		request.body(requestParams.toJSONString());
-		Response response = request.post("/register");
+		Response response = request.post("/registration");
 	 
 		String statusCode = String.valueOf(response.getStatusCode());
 		Assert.assertEquals(statusCode, "201");
@@ -52,7 +52,7 @@ public class TestCaseRegister {
 	@Test
 	public void RegistrationSuccessfulDeserialization()
 	{		
-		RestAssured.baseURI ="http://restapi.demoqa.com/customer";
+		RestAssured.baseURI ="http://toolsqa.cn/demon/api/user";
 		RequestSpecification request = RestAssured.given();
 	 
 		JSONObject requestParams = new JSONObject();
@@ -63,7 +63,7 @@ public class TestCaseRegister {
 		requestParams.put("Email",  "ed26dff39@gmail.com");
 	 
 		request.body(requestParams.toJSONString());
-		Response response = request.post("/register");
+		Response response = request.post("/registration");
 	 
 		ResponseBody body = response.getBody();
 	 
@@ -80,7 +80,7 @@ public class TestCaseRegister {
 	@Test
 	public void RegistrationSuccessfulOrFailure()
 	{		
-		RestAssured.baseURI ="http://restapi.demoqa.com/customer";
+		RestAssured.baseURI ="http://toolsqa.cn/demon/api/user";
 		RequestSpecification request = RestAssured.given();
 	 
 		JSONObject requestParams = new JSONObject();
@@ -91,7 +91,7 @@ public class TestCaseRegister {
 		requestParams.put("Email",  "ed26dff39@gmail.com");
 	 
 		request.body(requestParams.toJSONString());
-		Response response = request.post("/register");
+		Response response = request.post("/registration");
 	 
 		ResponseBody body = response.getBody();
 		System.out.println(response.body().asString());
